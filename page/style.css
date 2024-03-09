@@ -197,6 +197,11 @@ html {
   font-size: 24px;
   font-weight: 300;
   color: #333;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
 }
 
 .presentation {
@@ -298,6 +303,54 @@ html {
     max-width: 350px;
     justify-self: center;
   }
+
+  .projects-subblocks {
+    flex-direction: column;
+  }
+
+  .project-subblock {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .scroll-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .scroll-button {
+    width: 100%;
+  }
+
+  .presentation-container {
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "main"
+      "image";
+  }
+
+  .presentation-main {
+    order: 1;
+    grid-area: main;
+    text-align: center;
+  }
+
+  .presentation-image-container {
+    justify-self: center;
+    grid-area: image;
+  }
+
+  .language-buttons {
+    position: static;
+    display: block;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .language-buttons button {
+    margin-right: 5px;
+  }
+
 }
 
 .footer {
