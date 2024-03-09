@@ -1,0 +1,106 @@
+{
+  "en": {
+    "logo_data": "Portfolio website",
+    "title_data": "Software Developer",
+    "subtitle_data": "Artem Ryzhenkov",
+    "description_data": "Experienced Python developer with a strong background in testing and DevOps practices.",
+    "skills_button_data": "Skills",
+    "work_experience_button_data": "Work Experience",
+    "details_button_data": "Details",
+    "education_button_data": "Education",
+    "projects_button_data": "Projects",
+    "contact_button_data": "Contacts",
+
+    "achievements_title_data": "Achievements 🏆",
+    "skills_title_data": "Skills",
+    "work_experience_title_data": "Work Experience",
+    "projects_title_data": "Projects",
+    "education_title_data": "Education",
+    "contact_title_data": "Contacts",
+
+    "skills_description_data": "● Python 2.7/3.10 (more than 4 years of experience) ● Java, Groovy ● SQL (PostgreSQL, SQLite) \n ● RabbitMQ, Redis ● Linux/UNIX ● Docker, Docker Compose \n ● Jenkins/TeamCity ● Robot Framework ● Allure TestOps/TestRail",
+
+    "company_1_title_data": "JSC «Nexign»",
+    "company_1_period_data": "Position: Software Engineer. \n Duration: July 2022 - Present.",
+    "company_1_details_general_data": "➤ Development of a web service for providing business reports (django, django ORM, postgreSQL, pandas, celery, API integration) \n ➤ Support/development of a web service with presentations (django, pandas, API) \n ➤ Enhancement/creation of various-purpose Telegram bots (chat participant control, monitoring, notifications, etc.), for both internal corporate use and external clients (postgreSQL, django, python-telegram-bot) \n ➤ Creation of Jenkins pipelines in groovy (DSL), working with TeamCity pipelines \n ➤ Utilization of Docker and docker-compose \n ➤ System administration of automation service operations \n ➤ Writing automated tests (Robot Framework, pytest, unittests, mocks) \n ➤ Maintenance (code reviews in python, Robot Framework, groovy).",
+    "company_1_details_achievements_data": "֍ Successful project implementation within budgetary timelines for the migration of Yota subscribers and business processes from the old billing system to the new \"Megafon\": working with Jenkins pipelines, Robot Framework automated tests, and Django reports \n ֍ Development and implementation of a service for generating Python code based on the OpenAPI specification, reducing production incidents through automatic API updates, and reducing Time to Market (TTM) by 1.5 times through code generation in an open pull request by the team \n ֍ Development and integration of a bot into the Bitbucket version control system for automating pull request checks, reducing Time to Market (TTM) by 2 times \n ֍ Implementation of a corporate news Telegram bot for MegaFon employees \n ֍ Product segmentation for the automated testing of mobile operator tariffs into separate components, allowing for a reduction in time and cost for deployment and maintenance.",
+
+    "company_2_title_data": "LLC «Storm Technologies»",
+    "company_2_period_data": "Position: Automated Testing Specialist. \n Duration: May 2022 - June 2022.\n Transfer to the head company AO \"Nexign\" with a promotion in position.",
+    "company_2_details_general_data": "➤ Development of automated UAT tests (python, Robot Framework) \n ➤ Preparation and updating of test documentation (TestRail, markdown) \n ➤ Maintenance of existing automated tests, bug fixing \n ➤ Development of accompanying scripts (python)",
+    "company_2_details_achievements_data": "֍ Transfer to the head office with a promotion",
+
+    "company_3_title_data": "LLC «Nordavind-Dubna»",
+    "company_3_period_data": "Position: Automation Testing Intern. \n Duration: September 2021 - October 2021.",
+    "company_3_details_general_data": "➤ Software testing for video surveillance cameras (smoke testing, functional, load, regression, automated) on Debian and Windows operating systems \n ➤ Updating unit tests in Python 2.7 (architecture based on CORBA, omniORB) \n ➤ Writing accompanying scripts in Python 3 (parsers, generators) \n ➤ Developing testing plans and methodologies, analyzing obtained results, and compiling reports \n ➤ Keeping test cases up-to-date in TestRail \n ➤ Communicating with developers \n ➤ Compiling defect reports in Redmine.",
+
+    "company_4_title_data": "LLC «Smartsoft»",
+    "company_4_period_data": "Position: Manual Testing Intern.\n Duration: August 2021 - September 2021.",
+    "company_4_details_general_data": "➤ Testing of web-B2G projects (functional, regression, automated (API tests in Postman)) \n ➤ API testing (REST, SOAP) based on documentation using Swagger, Postman, SoapUI \n ➤ Testing of web products using tools such as Graylog, Sentry, OpenShift Web Console, DBeaver (PostgreSQL database) \n ➤ Verification for compliance with XML Schema and documentation in XMLSpy \n ➤ Communication with developers \n ➤ Creating bug reports in Jira \n ➤ Compilation of acceptance documentation",
+    "company_4_details_achievements_data": "",
+
+    "company_5_title_data": "LLC «Hopper IT»",
+    "company_5_period_data": "Position: Monitoring Group Specialist.\n Duration: April 2021 - August 2021.",
+    "company_5_details_general_data": "➤ Round-the-clock monitoring of the correct operation of various Information Systems (B2G, B2B, B2C) using automated tests launched through Jenkins, and infrastructure (Zabbix, Grafana) \n ➤ Configuration of the Jenkins-Zabbix integration \n ➤ In case of issues with Information Systems, escalation to the system administrator, task creation in Jira, logging, and writing incident resolution in the Service Desk system \n ➤ Configuration and monitoring setup for automated tests in Jenkins \n ➤ Verification of API requests using Postman \n ➤ Script writing in Python 3 (selenium, requests, urllib3)",
+
+    "project_1_description_data": "Verification Service for Django-based Layout Compliance Using Neural Networks.",
+    "project_2_description_data": "Manager for managing automated Telegram bots with ChatGPT support.",
+    "project_3_description_data": "Automated trading bot on the Steam platform.",
+    "education_description_data": "2021-2023: Dubna State University, Institute of Systems Analysis and Control (ISAC).\n Major - «System Analysis and Management», specialization - «Digital Platforms and Big Data Analytics» (with honors).\n\n 2017-2021: Dubna State University, Faculty of Natural and Engineering Sciences (FNES).\nMajor - «Ecology and Environmental Management», specialization - «Geoecology».",
+    "contact_description_data": "Work e-mail: RyzhenkovArt@yandex.ru \n Telegram: @RyzhenkovAD",
+
+    "footer_data": "© 2024 Artem Ryzhenkov. All rights reserved."
+
+  },
+  "ru": {
+    "logo_data": "Портфолио",
+    "title_data": "Программист-разработчик",
+    "subtitle_data": "Артем Рыженков",
+    "description_data": "Разработчик Python c крепкими знаниями в тестировании и практиках DevOps.",
+    "skills_button_data": "Навыки",
+    "work_experience_button_data": "Опыт работы",
+    "details_button_data": "Подробнее",
+    "education_button_data": "Образование",
+    "projects_button_data": "Проекты",
+    "contact_button_data": "Контакты",
+
+    "achievements_title_data": "Достижения 🏆",
+    "skills_title_data": "Навыки",
+    "work_experience_title_data": "Опыт работы",
+    "projects_title_data": "Проекты",
+    "education_title_data": "Образование",
+    "contact_title_data": "Контакты",
+
+    "skills_description_data": "● Python 2.7/3.10 (больше 4-x лет опыта) ● Java, Groovy ● SQL (PostgreSQL, SQLite) \n ● RabbitMQ, Redis ● Linux/UNIX ● Docker, Docker Compose \n ● Jenkins/TeamCity ● Robot Framework ● Allure TestOps/TestRail",
+
+    "company_1_title_data": "AO «Нэксайн»",
+    "company_1_period_data": "Должность: Инженер-программист.\n Продолжительность: Июль 2022 - Настоящее время.",
+    "company_1_details_general_data": "➤ Разработка веб-сервиса по предоставлению отчетов для бизнеса (django, django ORM, postgreSQL, pandas, celery, работа c API) \n ➤ Поддержка/разработка веб-сервиса c презентациями (django, pandas, API) \n ➤ Доработка/создание новых телеграмм-ботов различного назначения (контроль участников чата, мониторинг, нотификации и пр.), как для внутрикорпоративного пользования, так и для внешних заказчиков (postgreSQL, django, python-telegram-bot) \n ➤ Создание Jenkins пайплайнов на groovy (DSL), работа c пайплайнами TeamCity \n ➤ Работа c docker и docker-compose \n ➤ Системное администрирование работы сервисов автоматизации \n ➤ Написание автотестов (Robot Framework, pytest, unittests, моки) \n ➤ Мейнтейнерство (ревью кода на python, Robot Framework, goovy)",
+    "company_1_details_achievements_data": "֍ Успешная реализация проекта в бюджетные сроки по переносу абонентов и бизнес-процессов Yota из старой биллинговой системы в новую \"Мегафон\": работа с пайплайнами Jenkins, автотестами Robot Framework, отчетами на Django \n ֍ Разработка и внедрение сервиса по генерации python-кода на основе OpenAPI спецификации снизившее аварийность в продакшен за счет автоматической актуализации API, а также сократившее TTM 1,5 раза за счет генерации кода в открытом пулл-реквесте по команде \n ֍ Разработка и внедрение бота в систему управления версиями Bitbucket для автоматизации проверки пулл-реквестов, сократившее TTM (Time to Market) в 2 раза \n ֍ Реализация новостного общекорпоративного телеграмм-бота для сотрудников \"Мегафон\" \n ֍ Разбиения продукта по автотестированию тарифов сотового оператора на отдельные компоненты, позволившее снизить временные издержки на его развертывание и поддержание",
+    
+    "company_2_title_data": "OOO «Шторм Технологии»",
+    "company_2_period_data": "Должность: Специалист по автотестированию. \n Продолжительность: Май 2022 - Июнь 2022.\n Перевод в головную компанию AO «Нэксайн» c повышением в должности.",
+    "company_2_details_general_data": "➤ Разработка автоматизированных UAT-тестов (python, Robot Framework) \n ➤ Подготовка и актуализация тестовой документации (TestRail, markdown) \n ➤ Поддержка существующих автотестов, исправление багов \n ➤ Разработка сопроводительных скриптов (python)",
+    "company_2_details_achievements_data": "֍ Перевод в головную компанию с повышением в должности",
+
+    "company_3_title_data": "ООО «Нордавинд-Дубна»",
+    "company_3_period_data": "Должность: Специалист по автотестированию стажер. \n Продолжительность: Сентябрь 2021 - Октябрь 2021.",
+    "company_3_details_general_data": "➤ Тестирование ПО для камер видеонаблюдения (smoke testing, функциональное, нагрузочное, регрессивное, автоматизированное) на ОС Debian и ОС Windows \n ➤ Актуализация unit тестов на Python 2.7 (архитектура на CORBA, omniORB) \n ➤ Написание сопроводительных скриптов на Python 3 (парсеры, генераторы) \n ➤ Разработка планов и методик тестирования, анализ полученных результатов, составление отчетов \n ➤ Поддержание в актуальном состоянии тест-кейсов в TestRail \n ➤ Коммуникация с разработчиками \n ➤ Составление репортов о дефектах в Redmine.",
+
+    "company_4_title_data": "OOO «Смартсофт»",
+    "company_4_period_data": "Должность: Специалист по ручному тестированию стажер.\n Продолжительность: Август 2021 - Сентябрь 2021.",
+    "company_4_details_general_data": "➤ Тестирование web-B2G проектов (функциональное, регрессивное, автоматизированное (API тесты в Postman)) \n ➤ Тестирование API (REST, SOAP) на основе документации с использованием Swagger, Postman, SoapUI \n ➤ Тестирование web-продуктов, используя инструменты такие, как Graylog, Sentry, OpenShift Web Console, DBeaver (БД PostgreSQL) \n ➤ Проверка на соответствие XLM Schema и документации в XMLSpy \n ➤ Коммуникация с разработчиками \n ➤ Составление баг-репортов в Jira \n ➤ Составление приемочной документации",
+
+    "company_5_title_data": "OOO «Хоппер ИТ»",
+    "company_5_period_data": "Должность: Специалист группы мониторинга.\n Продолжительность: Апрель 2021 - Август 2021.",
+    "company_5_details_general_data": "➤ Круглосуточное наблюдение за корректной работой различных Информационных Систем (B2G, B2B, B2C) с использованием автотестов, запускаемых через Jenkins, и инфраструктуры (Zabbix, Grafana) \n ➤ Настройка связки Jenkins-Zabbix \n ➤ При обнаружении проблем с ИС эскалация системного администратора, постановка задачи в Jira, протоколирование, написания решение инцидента в Service Desk системе \n ➤ Настройка и постановка на мониторинг автотестов в Jenkins \n ➤ Проверка API-запросов через Postman \n ➤ Написание скриптов на Python 3 (selenium, requests, urllib3)",
+
+    "project_1_description_data": "Сервис проверки верстки по эталонному образцу на Django c использованием нейросетей.",
+    "project_2_description_data": "Менеджер по управлению автоматизированными телеграмм-ботами c поддержкой ChatGPT.",
+    "project_3_description_data": "Бот по автоматизированной торговле на площадке Steam.",
+    "education_description_data": "2021-2023: Государственный университет «Дубна», Институт Системного Анализа и Управления (ИСАУ).\n Направление — «Системный анализ и управление», профиль подготовки «Цифровые платформы и аналитика больших данных» (c отличием).\n\n 2017-2021: Государственный университет «Дубна», Факультет Естественных и Инженерных Наук (ФЕИН).\n  Направление — «Экология и природопользование», профиль подготовки «Геоэкология».",
+    "contact_description_data": "Рабочая почта: RyzhenkovArt@yandex.ru \n Телеграмм: @RyzhenkovAD",
+
+    "footer_data": "© 2024 Артем Рыженков. Bce права защищены."
+  }
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Language" content="en, ru"> 
+
+	<title>Artem Ryzhenkov</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="icon" href="static/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+	<link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <div class="language-buttons">
+	<button id="lang-en" onclick="changeLanguage('en')">
+	  <img class="flag" src="static/us.svg" alt="English">
+	</button>
+	<button id="lang-ru" onclick="changeLanguage('ru')">
+	  <img class="flag" src="static/ru.svg" alt="Русский">
+	</button>
+  </div>
+
+  <header class="header">
+	<span class="logo" data-lang='logo_data'>Портфолио</span>
+  </header>
+
+	  <div class="presentation">
+		<div class="container presentation-container">
+		  <div class="presentation-main">
+
+		  <h1 class="presentation-title" data-lang="title_data">Программист-разработчик</h1>
+		  <h2 class="presentation-subtitle" data-lang='subtitle_data'>Артем Рыженков</h2>
+		  <p class="presentation-description" data-lang='description_data'>Разработчик Python c крепкими знаниями в тестировании и практиках DevOps.</p>
+
+		  <div class="scroll-buttons">
+			<button class="scroll-button" data-target="skills" data-lang="skills_button_data">Навыки</button>
+			<button class="scroll-button" data-target="work-experience" data-lang="work_experience_button_data">Опыт работы</button>
+			<button class="scroll-button" data-target="projects" data-lang="projects_button_data">Проекты</button>
+			<button class="scroll-button" data-target="education" data-lang="education_button_data">Образование</button>
+			<button class="scroll-button" data-target="contact" data-lang="contact_button_data">Контакты</button>
+		  </div>
+
+		  <div class="presentation-links">
+			<a class="presentation-link" href="https://github.com/Jaldsky" target="_blank"><i class='bx bxl-github'></i></a>
+			<a class="presentation-link" href="https://t.me/RyzhenkovAD"><i class='bx bxl-telegram'></i></a>
+		  </div>
+
+		  </div>
+
+		  <div class="presentation-image-container">
+			<img class="presentation-image" src="img/presentation_photo.jpg" alt="Artem Ryzhenkov's photo">
+		  </div>
+
+		</div>
+	  </div>
+
+	<div id="skills" class="info-block">
+	  <div class="info-subblock">
+		<h3 data-lang="skills_title_data">Навыки</h3>
+		<p data-lang="skills_description_data">● Python 2.7/3.10 (больше 4-x лет опыта)  ● Java, Groovy  ● SQL (PostgreSQL, SQLite)
+			● RabbitMQ, Redis ● Linux/UNIX  ● Docker, Docker Compose
+			● Jenkins/TeamCity  ● Robot Framework ● Allure TestOps/TestRail
+		</p>
+	  </div>
+	</div>
+
+	<div id="work-experience" class="info-block">
+	  <div class="info-subblock">
+		<h3 data-lang="work_experience_title_data">Опыт работы</h3>
+
+		<div class="work-entry">
+		  <h4 data-lang="company_1_title_data">AO «Нэксайн»</h4>
+		  <p data-lang="company_1_period_data">Должность: Инженер-программист. <br> Продолжительность: Июль 2022 - Настоящее время.</p>
+		  <button class="details-button" data-lang="details_button_data">Подробнее</button>
+		  <div class="details">
+			<p class="company_details_general" data-lang="company_1_details_general_data">➤ Разработка веб-сервиса по предоставлению отчетов для бизнеса (django, django ORM, postgreSQL, pandas, celery, работа c API)
+				➤ Поддержка/разработка веб-сервиса c презентациями (django, pandas, API)
+				➤ Доработка/создание новых телеграмм-ботов различного назначения (контроль участников чата, мониторинг, нотификации и пр.), как для внутрикорпоративного пользования, так и для внешних заказчиков (postgreSQL, django, python-telegram-bot)
+				➤ Создание Jenkins пайплайнов на groovy (DSL), работа c пайплайнами TeamCity
+				➤ Работа c docker и docker-compose
+				➤ Системное администрирование работы сервисов автоматизации
+				➤ Написание автотестов (Robot Framework, pytest, unittests, моки)
+				➤ Мейнтейнерство (ревью кода на python, Robot Framework, goovy)
+			</p>
+			<h5 data-lang="achievements_title_data">Достижения 🏆</h5>
+			<p class="company_details_achievements_general" data-lang="company_1_details_achievements_data">֍ Успешная реализация проекта в бюджетные сроки по переносу абонентов и бизнес-процессов Yota из старой биллинговой системы в новую "Мегафон": работа с пайплайнами Jenkins, автотестами Robot Framework, отчетами на Django
+				֍ Разработка и внедрение сервиса по генерации python-кода на основе OpenAPI спецификации снизившее аварийность в продакшен за счет автоматической актуализации API, а также сократившее TTM 1,5 раза за счет генерации кода в открытом пулл-реквесте по команде
+				֍ Разработка и внедрение бота в систему управления версиями Bitbucket для автоматизации проверки пулл-реквестов, сократившее TTM (Time to Market) в 2 раза
+				֍ Реализация новостного общекорпоративного телеграмм-бота для сотрудников "Мегафон"
+				֍ Разбиения продукта по автотестированию тарифов сотового оператора на отдельные компоненты, позволившее снизить временные издержки на его развертывание и поддержание
+			</p>
+		  </div>
+		</div>
+
+		<div class="work-entry">
+			<h4 data-lang="company_2_title_data">OOO «Шторм Технологии»</h4>
+			<p data-lang="company_2_period_data">Должность: Специалист по автотестированию. <br> Продолжительность: Май 2022 - Июнь 2022.
+				Перевод в головную компанию AO «Нэксайн» c повышением в должности.</p>
+			<button class="details-button" data-lang="details_button_data">Подробнее</button>
+			<div class="details">
+				<p class="company_details_general" data-lang="company_2_details_general_data">➤ Разработка автоматизированных UAT-тестов (python, Robot Framework)
+					➤ Подготовка и актуализация тестовой документации (TestRail, markdown)
+					➤ Поддержка существующих автотестов, исправление багов
+					➤ Разработка сопроводительных скриптов (python)
+				</p>
+				<h5 data-lang="achievements_title_data">Достижения 🏆</h5>
+				<p class="company_details_achievements_general" data-lang="company_2_details_achievements_data">֍ Перевод в головную компанию с повышением в должности</p>
+			  </div>
+		  </div>
+
+		  <div class="work-entry">
+			<h4 data-lang="company_3_title_data">ООО «Нордавинд-Дубна»</h4>
+			<p data-lang="company_3_period_data">Должность: Специалист по автотестированию стажер. <br> Продолжительность: Сентябрь 2021 - Октябрь 2021.</p>
+			<button class="details-button" data-lang="details_button_data">Подробнее</button>
+			<div class="details">
+				<p class="company_details_general" data-lang="company_3_details_general_data">➤ Тестирование ПО для камер видеонаблюдения (smoke testing, функциональное, нагрузочное, регрессивное, автоматизированное) на ОС Debian и ОС Windows
+					➤ Актуализация unit тестов на Python 2.7 (архитектура на CORBA, omniORB)
+					➤ Написание сопроводительных скриптов на Python 3 (парсеры, генераторы)
+					➤ Разработка планов и методик тестирования, анализ полученных результатов, составление отчетов
+					➤ Поддержание в актуальном состоянии тест-кейсов в TestRail
+					➤ Коммуникация с разработчиками
+					➤ Составление репортов о дефектах в Redmine
+				</p>
+			  </div>
+		  </div>
+
+		  <div class="work-entry">
+			<h4 data-lang="company_4_title_data">OOO «Смартсофт»</h4>
+			<p data-lang="company_4_period_data">Должность: Специалист по ручному тестированию стажер. <br> Продолжительность: Август 2021 - Сентябрь 2021.</p>
+			<button class="details-button" data-lang="details_button_data">Подробнее</button>
+			<div class="details">
+				<p class="company_details_general" data-lang="company_4_details_general_data">➤ Тестирование web-B2G проектов (функциональное, регрессивное, автоматизированное (API тесты в Postman))
+					➤ Тестирование API (REST, SOAP) на основе документации с использованием Swagger, Postman, SoapUI
+					➤ Тестирование web-продуктов, используя инструменты такие, как Graylog, Sentry, OpenShift Web Console, DBeaver (БД PostgreSQL)
+					➤ Проверка на соответствие XLM Schema и документации в XMLSpy
+					➤ Коммуникация с разработчиками
+					➤ Составление баг-репортов в Jira
+					➤ Составление приемочной документации
+				</p>
+			  </div>
+		  </div>
+
+		  <div class="work-entry">
+			<h4 data-lang="company_5_title_data">OOO «Хоппер ИТ»</h4>
+			<p data-lang="company_5_period_data">Должность: Специалист группы мониторинга. <br> Продолжительность: Апрель 2021 - Август 2021.</p>
+			<button class="details-button" data-lang="details_button_data">Подробнее</button>
+			<div class="details">
+				<p class="company_details_general" data-lang="company_5_details_general_data">➤ Круглосуточное наблюдение за корректной работой различных Информационных Систем (B2G, B2B, B2C) с использованием автотестов, запускаемых через Jenkins, и инфраструктуры (Zabbix, Grafana)
+					➤ Настройка связки Jenkins-Zabbix
+					➤ При обнаружении проблем с ИС эскалация системного администратора, постановка задачи в Jira, протоколирование, написания решение инцидента в Service Desk системе
+					➤ Настройка и постановка на мониторинг автотестов в Jenkins
+					➤ Проверка API-запросов через Postman
+					➤ Написание скриптов на Python 3 (selenium, requests, urllib3)
+				</p>
+			  </div>
+		  </div>
+
+	  </div>
+	</div>
+
+	<div id="projects" class="info-block">
+	  <div class="info-subblock">
+		<h3 data-lang="projects_title_data">Проекты</h3>
+	  </div>
+
+	  <div class="projects-subblocks">
+		<div class="project-subblock">
+		  <a href="https://github.com/Jaldsky/AutomaticLayoutCheck">
+		    <img src="img/github.png" alt="Project 1: verification Service for Django-based Layout Compliance Using Neural Networks">
+		  </a>
+		  <p data-lang="project_1_description_data">Сервис проверки верстки по эталонному образцу на Django c использованием нейросетей.</p>
+		</div>
+	
+		<div class="project-subblock">
+		  <a href="https://github.com/Jaldsky/TelegramBotManager">
+		    <img src="img/github.png" alt="Project 2: manager for managing automated Telegram bots with ChatGPT support.">
+		  </a>
+		  <p data-lang="project_2_description_data">Менеджер по управлению автоматизированными телеграмм-ботами c поддержкой ChatGPT.</p>
+		</div>
+	
+		<div class="project-subblock">
+		  <a href="https://github.com/Jaldsky/SteamTradeBot">
+		    <img src="img/github.png" alt="Project 3: automated trading bot on Steam.">
+		  </a>
+		  <p data-lang="project_3_description_data">Бот по автоматизированной торговле на площадке Steam.</p>
+		</div>
+	  </div>
+
+	</div>
+
+	<div id="education" class="info-block">
+	  <div class="info-subblock">
+		<h3 data-lang="education_title_data">Образование</h3>
+		<p data-lang="education_description_data">2021-2023: Государственный университет «Дубна», Институт Системного Анализа и Управления (ИСАУ).
+			Направление — «Системный анализ и управление», профиль подготовки «Цифровые платформы и аналитика больших данных» (c отличием).
+		
+			2017-2021: Государственный университет «Дубна», Факультет Естественных и Инженерных Наук (ФЕИН). 
+			Направление — «Экология и природопользование», профиль подготовки «Геоэкология».</p>
+	  </div>
+	</div>
+
+	<div id="contact" class="info-block">
+	  <div class="info-subblock">
+		<h3 data-lang="contact_title_data">Контакты</h3>
+		<p data-lang="contact_description_data">Рабочая почта: RyzhenkovArt@yandex.ru <br> Телеграмм: @RyzhenkovAD</p>
+	  </div>
+	</div>
+	
+	<footer class="footer">
+      <div class="container">
+        <p data-lang="footer_data">&copy; 2024 Артем Рыженков. Bce права защищены.</p>
+      </div>
+    </footer>
+
+  <script src="script.js"></script>
+
+  </body>
+</html>
