@@ -2,7 +2,7 @@ FROM nginx:1.21.3
 
 COPY ./page /usr/share/nginx/html
 
-COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY ./nginx.conf /etc/nginx/conf.d/nginx.conf
 
 COPY ./ryzhenkov_ssl.crt /etc/ssl/ryzhenkov_ssl.crt
 COPY ./ryzhenkov_ssl.key /etc/ssl/ryzhenkov_ssl.key
